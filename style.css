@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffff;
+}
+.container {
+  height: 80vh;
+  display: flex;
+  margin: 0 160px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+  font-weight: normal;
+  margin-bottom: 32px;
+  color: #3f3d56;
+}
+
+.paragrafos p {
+  text-align: center;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span,
+a {
+  color: #ee24ff;
+}
+
+strong {
+  color: #3f3d56;
+}
+
+.footer {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+#onda {
+  position: fixed;
+  bottom: 0;
+}
